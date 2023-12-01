@@ -12,9 +12,9 @@ if ($cek > 0) {
         $_SESSION['level'] = "user";
         header("location: hal_user.php");
     } else {
-        header("location: index.php?pesan=gagal");
+        header("location: index.html?pesan=gagal");
     }
 } else {
-    header("location: index.php?pesan=gagal");
+    header("location: index.html?pesan=gagal");
 }
 ?>
