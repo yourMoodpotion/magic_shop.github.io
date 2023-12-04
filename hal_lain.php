@@ -11,7 +11,6 @@
 	if($_SESSION['level']==""){
 		header("location:index.php?pesan=gagal");
 	}
- 
 	?>
 	<h1>Login Magic Shop</h1>
  

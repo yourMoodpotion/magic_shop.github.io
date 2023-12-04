@@ -27,9 +27,6 @@
 
         <br/>
         <br/>
-        <center>
-        <a class="link" href="">kembali</a>
-</center>
 </form>
 </div>
 </body>
