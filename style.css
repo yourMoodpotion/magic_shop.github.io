@@ -234,17 +234,21 @@ header{
     margin-left: 19.5cm;
 }
 .spofile {
-    width: 130px;
+    width: 135px;
+    height: 40px;
     font-size: 25px;
     background-color: antiquewhite;
     border-radius: 2rem;
     text-align: center;
     margin-left: 18cm;
     margin-top: 1cm;
+    font-family: Roboto;
+    text-decoration: none;
+    list-style: none;
 }
 
 .pl a{
-    width: 250px;
+    width: 255px;
     background: rgb(181, 181, 181);
     margin-top: 1cm;
     margin-left: 17cm;
@@ -256,11 +260,24 @@ header{
     text-decoration: none;
     list-style: none;
 }
+.newpl{
+    width: 270px;
+    height: 65px;
+    font-size: 23px;
+    background-color: antiquewhite;
+    border-radius: 2rem;
+    text-align: center;
+    margin-left: 16.3cm;
+    margin-top: 1cm;
+    font-family: Roboto;
+    text-decoration: none;
+    list-style: none;
+}
 
 .ket h1{
     text-align: center;
     font-weight: 300;
-    margin-top: 8cm;
+    margin-top: 5cm;
 }
 
 .tulisan_login{
