@@ -5,6 +5,9 @@
         <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header> 
+    <img src="magic.png">
+</header>
     
 <?php
 session_start();
@@ -14,7 +17,7 @@ if ($_SESSION['level'] == "") {
     ?>
 
     <div class="ket">
-    <h1>Hallo <b><?php echo $_SESSION['username']; ?> </b> Anda telah login sebagai <b><?php echo $_SESSION['level']; ?></b>.</h1>
+    <h1>Hello <b><?php echo $_SESSION['username']; ?> </b> Anda berhasil login sebagai <b><?php echo $_SESSION['level']; ?></b>.</h1>
     </div>
     <br/>
     <br/>
@@ -24,7 +27,6 @@ if ($_SESSION['level'] == "") {
      </div> 
      <div class="spofile">
      <a href="https://open.spotify.com/user/6a2fexpazpygs4tds9tzgjjst?si=e9a3eb80ba424301">My Spofile</a>
-     <img src="mg-removebg-preview.png">
      </div>
 </body>
     </html>
